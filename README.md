@@ -39,6 +39,5 @@ It is recommended that you run the script when the Raspberry Pi boots, and this 
 `@reboot sudo python /home/pi/sales.py &`
 
 ## Things to note
-You should find your 
-
-
+You can find the mac address on your Raspberry Pi by typing (at the prompt):
+`ifconfig eth0` or `ifconfig wlan0` depending on which network card you use (wired or internal wifi).
