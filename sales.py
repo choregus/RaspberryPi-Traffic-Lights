@@ -31,7 +31,7 @@ def trafficState(red, yellow, green):
     GPIO.output(green_led, green)
 
 # Enter the URL where you will be placing the data file that updates periodically
-target_url = "http://192.168.1.181/scratch/tls.txt"
+target_url = "http://a-url-of-yours.com/sales-instructions.txt"
  
 print "Sales to Traffic Light By James Welch. Press CTRL + C to quit"
 
