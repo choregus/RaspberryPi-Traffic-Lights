@@ -16,9 +16,9 @@ The instructions file is very simple. For each Raspberry Pi, create a line with 
 
 A typical instructions file looks like:
 
-    62:3a:da:b7:40:b5:11:20:40:
-    9e:30:35:64:76:ab:32:20:40:
-    fa:af:e1:c4:07:52:41:20:40:
+    0xb827eb8b9e84L:11:20:40:
+    0x9e30356476abL:32:20:40:
+    0xfaafe1c40752:41L:20:40:
 This shows the instructions for 3 different Raspberry Pi's running the main script. Each computer will read the line that corresponds with its own Mac Address. Broken down, this is what each field of a line represents:
 
 * `62:3a:da:b7` - mac address
@@ -37,5 +37,8 @@ This script should be placed in your home directory on your Raspberry Pi (`/home
 It is recommended that you run the script when the Raspberry Pi boots, and this can be done using the `@reboot` function in crontab. An example entry could be:
 
 `@reboot sudo python /home/pi/sales.py &`
+
+## Things to note
+You should find your 
 
 
