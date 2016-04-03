@@ -1,5 +1,5 @@
 # RaspberryPi-Traffic-Lights
-Using traffic lights on Raspberry Pi GPIO to create a tactile monitoring system for salespeople and other staff.
+Using traffic lights on Raspberry Pi GPIO to create a tactile monitoring system for salespeople and other staff. This uses the traffic light system called [Pi-Stop](https://github.com/PiHw/Pi-Stop/blob/master/markdown_source/markdown/Discover-PiStop.md) which is excellent.
 
 I wanted to monitor how salespeople were performing in a way that was easier than to check a sales leaderboard. I wanted to see from looking at them, how they were doing.
 
